@@ -1,0 +1,15 @@
+http://figshare.com/articles/search?q=RAM+14000&quick=1
+
+BraincaseModels_RAM14000.zip
+LeftSkullModelHighRes_RAM14000.stl.zip
+LeftSkullModels_RAM14000.zip
+RAM14000_Phalanges.zip
+RAM14000_Squamosal.zip
+RAM14000_Ungual.zip
+RightHindLimb_RAM14000.zip
+RightHumerus_RAM14000.zip
+RightSkeleton_RAM14000.zip
+RightSkullModels_RAM14000.zip
+
+find . -name '*.stl' -exec cp {} stl/ \;
+find . -name '*.ply' -exec cp {} ply/ \;
